@@ -1,0 +1,22 @@
+{
+  "name": "silb_backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server.js",
+  "scripts": {},
+  "private": true,
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "bull": "^4.15.1",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "playwright": "^1.45.2",
+    "playwright-extra": "^4.3.6",
+    "playwright-extra-plugin-stealth": "^0.0.1",
+    "playwright-stealth": "^0.0.1",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.11"
+  }
+}
