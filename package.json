@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "src/server.js",
-  "scripts": {},
+  "scripts": {
+    "start": "node src/server.js"
+  },
   "private": true,
   "dependencies": {
     "body-parser": "^1.20.2",
