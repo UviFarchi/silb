@@ -42,6 +42,7 @@ app.post('/start-job', async (req, res) => {
 
 // SSE endpoint for clients to listen for job completion
 app.get('/events', (req, res) => {
+    console.log(req.body)
     res.setHeader('Content-Type', 'text/event-stream');
     res.setHeader('Cache-Control', 'no-cache');
     res.setHeader('Connection', 'keep-alive');
