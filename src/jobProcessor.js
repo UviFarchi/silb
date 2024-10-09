@@ -8,7 +8,7 @@ webkit.use(stealth);
 
 module.exports = {
     async run(){
-        return new Promise(resolve => {setTimeout(resolve,5000)})
+        return new Promise(resolve => {setTimeout(resolve,8000)})
     }
     // async run() {
     //     const userAgents = [
